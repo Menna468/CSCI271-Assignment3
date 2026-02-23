@@ -1,4 +1,3 @@
-//set S and C to either lower case or both uppercase
 import java.util.Scanner;
 
 public class question2 {
@@ -15,7 +14,7 @@ public class question2 {
         //calling the recursion function
         int result = common(S, C);
         //outputting the result
-        System.out.println(result);
+        System.out.println("Result = " + result);
         //closing the input
         input.close();
     }
