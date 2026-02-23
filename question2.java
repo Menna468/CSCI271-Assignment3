@@ -1,0 +1,1 @@
+//set S and C to either lower case or both uppercase
