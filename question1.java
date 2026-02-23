@@ -12,7 +12,8 @@ public class question1 {
         input.close();
     }
 
-    public static int sum(String n) {        
+    public static int sum(String n) {  
+        //base case      
         if (n.isEmpty()) {
             return 0;
         }
