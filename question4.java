@@ -23,21 +23,20 @@ public class question4 {
             return 0;
         }
 
+        //to take the last number of the long number
         long remainder = n % 10;
 
+        //if the last number equals the small number then it adds one calls the function again
         if (remainder == d) {
             n /= 10;
-            remainder = n;
             return 1 + common(n, d);
         }
 
-        if (remainder != d) {
-            n /=10;
-            remainder = n;
-            //return common(n, d);
+        //if it doesn't match then it calls the function again
+        else {
+            n /= 10;
+            return common(n, d);
         }
-
-        return common(n, d);
 
     }
 

@@ -9,8 +9,8 @@ public class question2 {
         String S = input.nextLine();
         char C = input.next().charAt(0);
         //changing to uppercase
-        S.toUpperCase();
-        Character.toUpperCase(C);
+        S = S.toUpperCase();
+        C = Character.toUpperCase(C);
         //calling the recursion function
         int result = common(S, C);
         //outputting the result
@@ -32,7 +32,9 @@ public class question2 {
             return 1 + common(s.substring(1), c);
         }
         
-        return common(s.substring(1), c);
+        else {
+            return common(s.substring(1), c);
+        }
 
     }
 }
