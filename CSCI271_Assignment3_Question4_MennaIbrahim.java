@@ -38,9 +38,10 @@ public class CSCI271_Assignment3_Question4_MennaIbrahim {
         Scanner input = new Scanner(System.in);
 
         /****************************** Test Case ********************************/
-        System.out.println("_______________________________________________");
+        System.out.println("________________________________________________________");
+        System.out.println();
         System.out.println("Testing the numbers (422327262) and (2): " + common(422327262, 2));
-        System.out.println("_______________________________________________");
+        System.out.println("________________________________________________________");
         /************************************************************************/
 
         //askign for input

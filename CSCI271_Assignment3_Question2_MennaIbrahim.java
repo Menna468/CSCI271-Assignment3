@@ -38,9 +38,10 @@ public class CSCI271_Assignment3_Question2_MennaIbrahim {
         Scanner input = new Scanner(System.in);
 
         /****************************** Test Case ********************************/
-        System.out.println("_______________________________________________");
+        System.out.println("________________________________________________________");
+        System.out.println();
         System.out.println("Testing the word (familiar) and (i): " + common("familiar", 'i'));
-        System.out.println("_______________________________________________");
+        System.out.println("________________________________________________________");
         /************************************************************************/
 
         System.out.println("Enter a string and a character: ");

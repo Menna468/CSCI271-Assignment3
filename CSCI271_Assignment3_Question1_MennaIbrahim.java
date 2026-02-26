@@ -39,9 +39,10 @@ public class CSCI271_Assignment3_Question1_MennaIbrahim {
         Scanner input = new Scanner(System.in);
 
         /****************************** Test Case ********************************/
-        System.out.println("_______________________________________________");
+        System.out.println("________________________________________________________");
+        System.out.println();
         System.out.println("Testing the word (example): " + sum("example"));
-        System.out.println("_______________________________________________");
+        System.out.println("________________________________________________________");
         /************************************************************************/
 
         System.out.println("Enter a string: ");

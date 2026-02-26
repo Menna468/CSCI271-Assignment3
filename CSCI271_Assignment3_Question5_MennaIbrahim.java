@@ -37,9 +37,10 @@ public class CSCI271_Assignment3_Question5_MennaIbrahim {
         Scanner input = new Scanner(System.in);
 
         /****************************** Test Case ********************************/
-        System.out.println("_______________________________________________");
+        System.out.println("________________________________________________________");
+        System.out.println();
         System.out.println("Testing the word (backwards): " + backward("backwards"));
-        System.out.println("_______________________________________________");
+        System.out.println("________________________________________________________");
         /************************************************************************/
 
 

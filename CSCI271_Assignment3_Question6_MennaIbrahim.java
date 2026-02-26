@@ -40,10 +40,11 @@ public class CSCI271_Assignment3_Question6_MennaIbrahim {
         Scanner input = new Scanner(System.in);
 
         /****************************** Test Case ********************************/
-        System.out.println("_______________________________________________");
+        System.out.println("________________________________________________________");
+        System.out.println();
         int[] T = {55, 32, 3, 2, 50 ,49, 19};
         System.out.println("Testing the array {55, 32, 3, 2, 50, 49, 19}: " + sumEven(T, 7));
-        System.out.println("_______________________________________________");
+        System.out.println("________________________________________________________");
         /************************************************************************/
 
         System.out.println("Enter the number of elements: ");
