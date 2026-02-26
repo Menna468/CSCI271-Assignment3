@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class question2 {
+public class CSCI271_Assignment3_Question2_MennaIbrahim {
     public static void main(String[] args) {
         //
         Scanner input = new Scanner(System.in);

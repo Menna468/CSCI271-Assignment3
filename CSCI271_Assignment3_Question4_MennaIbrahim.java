@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class question4 {
+public class CSCI271_Assignment3_Question4_MennaIbrahim {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         //askign for input
@@ -41,3 +41,5 @@ public class question4 {
     }
 
 }
+
+//The running time of this function is O(log n)
